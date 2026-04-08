@@ -1,5 +1,5 @@
 import { test, expect, Locator } from '@playwright/test';
-import { InputFormPage } from './input_form'
+import { InputFormPage } from '../pages/input_form'
 
 test.describe('Input Form Tests', () => {
     let inputForm: InputFormPage;
